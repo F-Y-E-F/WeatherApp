@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+#nextWeekContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}

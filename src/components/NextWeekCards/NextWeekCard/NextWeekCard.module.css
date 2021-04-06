@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.nextWeekCard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+.dayName{
+    font-size: 28px;
+    color: #838383;
+    font-weight: 300;
+}
+
+.maxTemp{
+    font-size: 28px;
+    color: #1f1f1f;
+    font-weight: 300;
+}
+
+.minTemp{
+    font-size: 28px;
+    color: #adadad;
+    font-weight: 300;
+}
+
+.temperatures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    margin-top: 15px;
+    height: 90px;
+    width: 90px;
+}

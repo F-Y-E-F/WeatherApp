@@ -13,13 +13,26 @@ body {
 #date{
     font-size: 20px;
     color: #838383;
+    margin-bottom: 5px;
 }
 
 .flexContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
+.photo {
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+}
 
+.stats{
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #838383;
+}

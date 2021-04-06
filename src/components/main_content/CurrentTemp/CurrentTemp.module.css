@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: auto 0;
+}
+
+#temp{
+    font-size: 72px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+
+#name{
+    font-size: 28px;
+    font-weight: 300;
+    color: #838383;
+}
+
+#updatedTime{
+    font-size: 15px;
+    font-weight: 300;
+    color: #838383;
+}

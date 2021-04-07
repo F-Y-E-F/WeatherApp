@@ -1,16 +1,11 @@
 import React from 'react'
 import NextWeekCard from './NextWeekCard/NextWeekCard'
 import styles from './NextWeekCards.module.css'
-const nextWeekCards = () =>{
+const nextWeekCards = (props) =>{
 
     return(
         <div id={styles.nextWeekContainer}>
-            <NextWeekCard/>
-            <NextWeekCard/>
-            <NextWeekCard/>
-            <NextWeekCard/>
-            <NextWeekCard/>
-            <NextWeekCard/>
+            {props.weather.map((weatherState) => <NextWeekCard key={weatherState.date_epoch} weatherState={weatherState.day}/> )}
         </div>
     )
 

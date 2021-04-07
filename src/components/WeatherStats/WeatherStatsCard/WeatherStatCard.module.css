@@ -6,6 +6,7 @@ body {
 }
 
 .stats{
+    font-size: 15px;
     width: 180px;
     height: 250px;
     margin-left: 30px;

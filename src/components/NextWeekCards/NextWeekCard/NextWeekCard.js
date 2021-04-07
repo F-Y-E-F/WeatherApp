@@ -1,14 +1,18 @@
 import React from 'react'
+import getImages from '../../../helpers/Images'
 import styles from './NextWeekCard.module.css'
-const nextWeekCard = () =>{
+const nextWeekCard = (props) =>{
+    
+    const url = getImages(props.weatherState.condition.code)
+    
     return(
         <div className={styles.nextWeekCard}>
             <p className={styles.dayName}>Mon</p>
             <div className={styles.temperatures}>
-                <p className={styles.maxTemp}>24°C</p>
-                <p className={styles.minTemp}>/11°C</p>
+                <p className={styles.maxTemp}>{props.weatherState.maxtemp_c}°C</p>
+                <p className={styles.minTemp}>/{props.weatherState.mintemp_c}°C</p>
             </div>
-            <img src="https://www.metaweather.com/static/img/weather/s.svg" className={styles.photo} alt="weather_state "/>
+            <img src={url} className={styles.photo} alt="weather_state "/>
         </div>
     )
 

@@ -1,0 +1,57 @@
+
+
+const getImages = (imageCode) => {
+    switch(imageCode){
+        case 1000: return "https://www.metaweather.com/static/img/weather/c.svg"
+        case 1003: return "https://www.metaweather.com/static/img/weather/lc.svg"
+        case 1006: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1009: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1030: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1063: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1066: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1069: return "https://www.metaweather.com/static/img/weather/sl.svg"
+        case 1072: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1087: return "https://www.metaweather.com/static/img/weather/t.svg"
+        case 1114: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1117: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1135: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1147: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1150: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1153: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1168: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1171: return "https://www.metaweather.com/static/img/weather/hc.svg"
+        case 1183: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1186: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1189: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1192: return "https://www.metaweather.com/static/img/weather/hr.svg"
+        case 1195: return "https://www.metaweather.com/static/img/weather/hr.svg"
+        case 1198: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1201: return "https://www.metaweather.com/static/img/weather/hr.svg"
+        case 1204: return "https://www.metaweather.com/static/img/weather/sl.svg"
+        case 1207: return "https://www.metaweather.com/static/img/weather/sl.svg"
+        case 1210: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1213: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1216: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1219: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1222: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1225: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1237: return "https://www.metaweather.com/static/img/weather/h.svg"
+        case 1240: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1243: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1246: return "https://www.metaweather.com/static/img/weather/lr.svg"
+        case 1249: return "https://www.metaweather.com/static/img/weather/sl.svg"
+        case 1252: return "https://www.metaweather.com/static/img/weather/sl.svg"
+        case 1255: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1258: return "https://www.metaweather.com/static/img/weather/sn.svg"
+        case 1261: return "https://www.metaweather.com/static/img/weather/h.svg"
+        case 1264: return "https://www.metaweather.com/static/img/weather/h.svg"
+        case 1273: return "https://www.metaweather.com/static/img/weather/t.svg"
+        case 1276: return "https://www.metaweather.com/static/img/weather/t.svg"
+        case 1279: return "https://www.metaweather.com/static/img/weather/t.svg"
+        case 1282: return "https://www.metaweather.com/static/img/weather/t.svg"
+        default: return 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png'
+    }
+    
+}
+
+export default getImages

@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './CurrentTemp.module.css'
+import moment from 'moment';
 
-const currentTemp = () =>{
+const currentTemp = (props) =>{
     return (
         <div id={styles.container}>
-            <div id={styles.temp}>23°C</div>  
-            <p id={styles.name}>Partly sunny</p> 
-            <p id={styles.updatedTime}>Updated: 1:48 PM</p>  
+            <div id={styles.temp}>{props.currentWeather.temp_c}°C</div>  
+            <p id={styles.name}>{props.currentWeather.condition.text}</p> 
+            <p id={styles.updatedTime}>Last Updated {moment(props.currentWeather.last_updated).format("HH:mm")}</p>  
         </div>
     )
 }

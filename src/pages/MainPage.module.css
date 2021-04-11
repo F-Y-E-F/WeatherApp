@@ -1,0 +1,36 @@
+.App {
+
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:45%;
+    left: 45%;  
+  }
+  
+  .Root{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #loading{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #345beb;
+  }
+  
+  .loadingImage{
+    height: 80px;
+    width: 80px;
+    -webkit-animation:spin 3s linear infinite;
+    -moz-animation:spin 3s linear infinite;
+    animation:spin 3s linear infinite;
+  }
+  
+  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }

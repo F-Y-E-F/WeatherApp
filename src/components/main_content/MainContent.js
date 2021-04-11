@@ -3,7 +3,8 @@ import moment from 'moment';
 import styles from './MainContent.module.css'
 import CurrentTemp from './CurrentTemp/CurrentTemp'
 import getImages from '../../helpers/Images';
-
+import { Fab } from '@material-ui/core';
+import { MdEdit } from "react-icons/md";
 
 const mainConent = (props) => {
 
@@ -11,7 +12,11 @@ const mainConent = (props) => {
         const url = getImages(props.currentWeather.condition.code)
         return (
             <div>
-                <div id={styles.title}>{props.location.name}, {props.location.country}</div>
+                <div id={styles.title}>{props.location.name}, {props.location.country} 
+                    <Fab aria-label="add" elevation={0} style={{boxShadow: "none",marginLeft:'20px'}} size="small"  >
+                        <MdEdit size={18} />
+                    </Fab>
+                </div>
                 <div id={styles.date}>{moment().format("ddd, DD MMM YYYY")}</div>
                 <div className={styles.flexContainer}>
                     <CurrentTemp currentWeather={props.currentWeather}/>

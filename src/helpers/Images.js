@@ -49,7 +49,7 @@ const getImages = (imageCode) => {
         case 1276: return "https://www.metaweather.com/static/img/weather/t.svg"
         case 1279: return "https://www.metaweather.com/static/img/weather/t.svg"
         case 1282: return "https://www.metaweather.com/static/img/weather/t.svg"
-        default: return 'https://socialistmodernism.com/wp-content/uploads/2017/07/placeholder-image.png'
+        default: return 'https://www.metaweather.com/static/img/weather/hc.svg'
     }
     
 }

@@ -1,4 +1,4 @@
-.App {
+.MainPage {
 
     text-align: center;
     
@@ -7,30 +7,62 @@
     align-items: center;
     position: absolute;
     top:45%;
-    left: 45%;  
+    left: 42%;  
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 191, 255);
   }
+.MainPageError{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25%;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(0, 191, 255);
+}
   
-  .Root{
+.Root{
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-  }
+}
   
-  #loading{
-    margin-left: 10px;
-    font-size: 24px;
-    font-weight: 700;
-    color: #345beb;
-  }
+
   
-  .loadingImage{
+.loadingImage{
     height: 80px;
     width: 80px;
+    margin-right: 12px;
     -webkit-animation:spin 3s linear infinite;
     -moz-animation:spin 3s linear infinite;
     animation:spin 3s linear infinite;
-  }
+}
   
-  @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-  @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-  @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.okButton{
+    transition-duration: 0.5s;
+    background-color: rgb(0, 191, 255);
+    color: white;
+    padding:15px 30px;
+    border-radius: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid white
+}
+.okButton:focus{
+    outline: none;
+}
+.okButton:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(0, 51, 68);
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}

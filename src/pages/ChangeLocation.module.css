@@ -1,0 +1,39 @@
+.wrapper{
+    text-align: center;
+    margin: 100px;
+}
+
+.locationInput[type="text"]{
+    padding:15px;
+    width: 75%;
+    font-size:20px;
+    border: 2px solid rgb(0, 191, 255);
+    border-radius: 100px;
+    transition-duration: 0.5s;
+}
+.locationInput:focus{
+    border: 2px solid rgb(0, 51, 68);
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.searchButton{
+    transition-duration: 0.5s;
+    background-color: rgb(0, 191, 255);
+    color: white;
+    padding:15px 30px;
+    border-radius: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid white
+}
+.searchButton:focus{
+    outline: none;
+}
+.searchButton:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(0, 51, 68);
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
